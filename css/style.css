@@ -20,6 +20,10 @@ body{
   flex-wrap: wrap;
 }
 
+header div{
+  cursor: pointer;
+}
+
 /* HEADER */
 
 header{
@@ -45,7 +49,7 @@ header .button .speaker, .expand{
 /* MAIN */
 
 main{
-  height: calc(100vh - 130px);
+  height: calc(100vh - 140px);
   overflow: auto;
   max-width: 100vw;
   flex-wrap: wrap;
@@ -120,3 +124,6 @@ footer .menu-end p{
   align-items: center;
 }
 
+footer div{
+  cursor: pointer;
+}
