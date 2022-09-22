@@ -83,13 +83,17 @@ footer{
 }
 
 footer .menu{
-  padding: 20px;
-  margin: 10px;
+  padding: 10px;
+  
   text-align: center;
 }
 
 footer .menu .video{
   margin: 0 30px;
+}
+
+footer .menu p{
+  font-size: 0.9rem;
 }
 
 footer .menu i{
@@ -101,9 +105,9 @@ footer .menu .chev i{
   margin: 20px 10px 0 10px;
 }
 
-/* footer .menu .center{
-  margin: 0 50px;
-} */
+footer .menu .center .invite, .manage, .polling, .share-active, .chev, .chat, .record, .break, .more{
+  margin: 0 7px;
+}
 
 .active{
   color: green;
