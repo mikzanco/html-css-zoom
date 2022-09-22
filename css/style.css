@@ -3,3 +3,59 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.d-flex{
+  display: flex;
+}
+
+body{
+  background-color: black;
+}
+
+.debug{
+  border: 1px solid red;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+/* HEADER */
+
+header{
+  height: 50px;
+}
+
+main{
+  height: calc(100vh - 130px);
+  overflow: auto;
+  max-width: 100vw;
+  flex-wrap: wrap;
+  margin: 10px 20px
+}
+
+main .pic{
+  position: relative;
+  margin: 10px 5px;
+  
+}
+
+main .pic .name{
+  position: absolute;
+  left: 0;
+  top: 122px;
+  background-color: rgba(101, 97, 102, 0.6);
+  color: white;
+  padding: 5px;
+
+}
+
+
+
+
+
+
+footer{
+  height: 80px;
+  background-color: #222222;
+}
