@@ -82,6 +82,10 @@ footer{
   align-items: center;
 }
 
+footer nav ul li{
+  list-style: none;
+}
+
 footer .menu{
   padding: 10px;
   
