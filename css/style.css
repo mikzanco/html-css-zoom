@@ -42,25 +42,14 @@ header .button .speaker, .expand{
   margin: 3px;
 }
 
-/* header .button .expand{
-  background-color: gray;
-  align-items: center;
-  padding: 5px;
-  border-radius: 10px;
-} */
-
-
-
-
-
 /* MAIN */
 
 main{
-  height: calc(100vh - 140px);
+  height: calc(100vh - 130px);
   overflow: auto;
-  /* max-width: 100vw; */
+  max-width: 100vw;
   flex-wrap: wrap;
-  /* margin: 10px 20px */
+  margin: 0 10px;
 }
 
 main .pic{
@@ -83,4 +72,51 @@ main .pic .name{
 footer{
   height: 80px;
   background-color: #222222;
+  justify-content: space-between;
+  color: white;
+  max-width: 100vw;
+  align-items: center;
 }
+
+footer .menu{
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+footer .menu .video{
+  margin: 0 30px;
+}
+
+footer .menu i{
+  font-size: 30px;
+}
+
+footer .menu .chev i{
+  font-size: 15px;
+  margin: 20px 10px 0 10px;
+}
+
+/* footer .menu .center{
+  margin: 0 50px;
+} */
+
+.active{
+  color: green;
+}
+
+
+footer .menu-end{
+  color: red;
+  background-color: #4a4a4a ;
+  height: 100%;
+  width: 120px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .menu-end p{
+  justify-content: center;
+  align-items: center;
+}
+
