@@ -24,14 +24,43 @@ body{
 
 header{
   height: 50px;
+  position: relative;
 }
 
-main{
-  height: calc(100vh - 130px);
-  overflow: auto;
-  max-width: 100vw;
+header .button{
+  display: flex;
+  color: white;
   flex-wrap: wrap;
-  margin: 10px 20px
+  justify-content: flex-end;
+}
+
+header .button .speaker, .expand{
+  background-color: gray;
+  align-items: center;
+  padding: 3px;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+/* header .button .expand{
+  background-color: gray;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+} */
+
+
+
+
+
+/* MAIN */
+
+main{
+  height: calc(100vh - 140px);
+  overflow: auto;
+  /* max-width: 100vw; */
+  flex-wrap: wrap;
+  /* margin: 10px 20px */
 }
 
 main .pic{
@@ -47,13 +76,9 @@ main .pic .name{
   background-color: rgba(101, 97, 102, 0.6);
   color: white;
   padding: 5px;
-
 }
 
-
-
-
-
+/* FOOTER */
 
 footer{
   height: 80px;
